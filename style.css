@@ -1,0 +1,32 @@
+.frame {
+    display: flex;
+    flex-direction: column;
+    width:250px;
+    height:360px;
+    border: solid black;
+    padding: 20px;
+    justify-content: space-around;
+    
+}
+
+.display {
+    height: 50px;
+    border: solid black;
+}
+
+
+.button {
+    height: 55px;
+    width: 55px;
+}
+
+.bottom-display, .top-display {
+    height: 50%;
+    text-align: right;
+}
+
+
+.line {
+    display: flex;
+    justify-content: space-around;
+}
